@@ -10,12 +10,6 @@
       "cost": 102,
       "services": [
         {
-          "name": "puta",
-          "cost": "100",
-          "description": "se sabe ne somos humanos ",
-          "id": "94d6770c-2836-455f-8530-05b390fbb67a"
-        },
-        {
           "name": "teste",
           "cost": "1",
           "description": "abc",
