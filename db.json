@@ -1,9 +1,68 @@
 {
-    "projects": [],
-    "categories": [
-        {"id": 1, "name":"Infra"},
-        {"id": 2, "name":"Dev"},
-        {"id": 3, "name":"Design"},
-        {"id": 4, "name":"Planning"}
-    ]
+  "projects": [
+    {
+      "name": "project 01",
+      "budget": "700",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 102,
+      "services": [
+        {
+          "name": "puta",
+          "cost": "100",
+          "description": "se sabe ne somos humanos ",
+          "id": "94d6770c-2836-455f-8530-05b390fbb67a"
+        },
+        {
+          "name": "teste",
+          "cost": "1",
+          "description": "abc",
+          "id": "9023c9d7-b4fe-4c9f-8372-2fe8c4237413"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "project 012",
+      "budget": "150990",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "project 03",
+      "budget": "3000000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Dev"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planning"
+    }
+  ]
 }
